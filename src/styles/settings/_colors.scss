@@ -1,0 +1,37 @@
+$_eucalyptus: #289f5f;
+$_green-pea: #19623b;
+$_orange: hsl(26, 100%, 55%);
+$_orange-black: #a04f08;
+$_baltic-sea: #282729;
+$_cod-gray: #181818;
+$_dove-gray: #666;
+$_boulder: #777;
+$_white: #fff;
+$_alabaster: #fafafa;
+$_gallery: #ececec;
+
+$_very-dark:#1d2025;
+$_dark-grayish:#68707d;
+$_light-grayish:#f7f8fd;
+
+
+$primary-color: $_orange;
+$primary-dark-color: $_green-pea;
+$white-color: $_white;
+$primary-color-btn:$_orange;
+$primary-dark-color-btn: $_orange-black;
+
+$background-dark-color: $_baltic-sea;
+$background-darker-color: $_cod-gray;
+$background-light-color: $_alabaster;
+$background-lighter-color: $_white;
+$background-grey-color:$_light-grayish;
+
+$text-color: $_cod-gray;
+$text-muted-color: $_dove-gray;
+$text-inverted-color: $_white;
+
+$text-inf-color:$_dark-grayish;
+
+$border-color: $_dove-gray;
+$border-inverted-color: $_gallery;
