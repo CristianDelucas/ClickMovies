@@ -1,13 +1,9 @@
 @use "../settings/variables";
-@import "../tools/medias-querys";
 
 .o-container {
   display: flex;
   max-width: variables.$max-width;
   min-height: calc(100vh);
-  
+
   margin: 0 auto;
-  @include tablet {
-    }
-  
 }
