@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <header>
-      <button className="nav-btn" onClick={showNavbar}>
+      <button className="__btn-nav" onClick={showNavbar}>
         <FaBars />
       </button>
       <nav ref={navRef}>
@@ -18,10 +18,15 @@ const Navbar = () => {
         <a href="/#">Peliculas</a>
         <a href="/#">Series</a>
         <a href="/#">Generos</a>
-        <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+        <button className="__btn-nav __btn-nav-close" onClick={showNavbar}>
           <FaTimes />
         </button>
       </nav>
+      <div className="__profile">
+        {/* TODO Falta complementar con renderizado condicional, según este
+        conectado o no el Usuario. */}
+        <a href="/#">Inicio Sesión</a>
+      </div>
     </header>
   );
 };
